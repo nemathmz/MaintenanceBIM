@@ -1,2 +1,4 @@
 # MaintenanceBIM
-An interface created to integrate maintenance plan and FMECA with a 3D BIM model
+This repository contains the additional developed functions to incorporate RCM documents (maintenance plan & FMECA) in BIM-SIM API
+
+
