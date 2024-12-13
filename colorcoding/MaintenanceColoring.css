@@ -1,0 +1,116 @@
+#colorButton { 
+    position: absolute; 
+    top: 120px; 
+    right: 0; 
+    background-color:  rgb(215, 242, 243); 
+    color: rgb(6, 6, 6);
+    border: none;
+    padding: 10px 20px;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+#colorButton:hover {
+    background-color: #98c1d9ff;
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
+}
+
+#colorButton:active {
+    margin: 10px;
+    background-color: #74f4ed;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+
+}
+
+#colorButton:disabled {
+    background-color: #e0fbfcff;
+    cursor: not-allowed;
+    box-shadow: none;
+}
+
+
+#legend {
+    position: fixed; 
+    bottom: 60px; 
+    right: 310px; 
+    padding: 5px;
+    background-color: #f9f9f9a0;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 160px;
+    height: 140px;
+    color: rgb(6, 6, 6);
+    font: bolder;
+}
+
+
+#legend h4 {
+    color: rgb(6, 6, 6);
+    margin-bottom: 10px;
+    margin-top: 0px;
+    font-size: 14px;
+}
+
+#legend ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+#legend ul li {
+    margin-bottom: 8px;
+    font-size: 12px;
+}
+
+#legend ul li span {
+    padding: 5px;
+    border-radius: 3px;
+    display: inline-block;
+    min-width: 30px;
+    min-height: 10px;
+}
+
+#maintenanceTask {
+    position: fixed;
+    bottom: 60px; 
+    right: 480px; 
+    padding: 5px;
+    background-color: #f9f9f9a0;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    min-height: 120px;
+    text-align: center;
+    font-size: 14px;
+    color: rgb(6, 6, 6);
+
+}
+
+#maintenanceTask h4 {
+    font-size: 14px;
+    margin-bottom: 10px;
+    margin-top: 0px;
+    color: rgb(6, 6, 6);
+}
+
+#maintenanceTask p {
+    font-size: 12px;
+    margin: 0;
+}
+
+/* Style for Fill in Maintenance Report button */
+#reportButton {
+    background-color:#91909080;
+    border: 1px solid #0d0d0d;
+    padding: 5px;
+    border-radius: 5px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+#reportButton:hover {
+    background-color: #e0e0e0;
+}
